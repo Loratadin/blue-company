@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*Common Styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*End Common Styles*/
+
+.body {
+    background-image: url("./images/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Container holding the text */
+.container-transparent {
+    width: 1140px;
+    position: relative;
+    background: transparent;
+    margin: auto;
+    padding: auto;
+}
+.header {
+    overflow: hidden;
+}
+.header-left {
+    float: left;
+}
+.logo {
+    margin: 56px auto 30px 23px;
+    display: inline-block;
+}
+.company-name {
+    font-family: url("./fonts/gotham-bold.ttf");
+    font-size: 16px;
+    display: inline;
+    font-size: 16px;
+    text-align: left;
+    color: white
+}
+.company-name-description {
+    font-family: url("./fonts/gotham-thin.ttf");
+    font-size: 11px;
+    font-size: 10px;
+    color: #81b6e5;
+}
+.header-right {
+    list-style-type: none;
+    font-family: Roboto;
+    font-size: 15px;
+    float: right; 
+}
+.li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    margin: auto 22px;
+    color: white;
+}
+.container-white {
+    width: 1140px;
+    position: relative;
+    background: white;
+    margin: auto;
+    padding-bottom: 168px;
+}
