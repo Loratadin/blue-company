@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+@font-face {
+    font-family: gotham-bold;
+    src: url(./fonts/gotham-bold.ttf);
+}
+@font-face {
+    font-family: gotham-thin;
+    src: url(./fonts/gotham-thin.ttf);
+}
+
 /*Common Styles*/
 * {
     margin: 0;
@@ -31,7 +40,7 @@
     display: inline-block;
 }
 .company-name {
-    font-family: url("./fonts/gotham-bold.ttf");
+    font-family: gotham-bold;
     font-size: 16px;
     display: inline;
     font-size: 16px;
@@ -39,7 +48,7 @@
     color: white
 }
 .company-name-description {
-    font-family: url("./fonts/gotham-thin.ttf");
+    font-family: gotham-thin;
     font-size: 11px;
     font-size: 10px;
     color: #81b6e5;
