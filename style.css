@@ -14,14 +14,15 @@
     margin: 0;
     padding: 0;
 }
-/*End Common Styles*/
 
 .body {
     background-image: url("./images/BG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* Container holding the text */
+/*End Common Styles*/
+
+/* Header in transparent container */
 .container-transparent {
     width: 1140px;
     position: relative;
@@ -39,9 +40,8 @@
     margin: 56px auto 30px 23px;
     display: inline-block;
 }
-.company-name {
+.h1 {
     font-family: gotham-bold;
-    font-size: 16px;
     display: inline;
     font-size: 16px;
     text-align: left;
@@ -67,6 +67,9 @@
     margin: auto 22px;
     color: white;
 }
+/*end of the header*/
+
+/*main in white container*/
 .container-white {
     width: 1140px;
     position: relative;
@@ -74,3 +77,38 @@
     margin: auto;
     padding-bottom: 168px;
 }
+.h2 {
+    font-family: Roboto-black;
+    font-size: 40px;
+    color: #17466f;
+    text-align: center;
+}
+.main-text {
+    font-family: Roboto-light;
+    font-size: 24px;
+    color: #184771;
+    text-align: center;
+    line-height: 35px;
+}
+.secondary-text {
+    font-family: Roboto-light;
+    font-size: 19px;
+    color: #17466f;
+    text-align: center;
+    line-height: 36px;
+}
+.widgets {
+    overflow: hidden;
+}
+.widget-item {
+    float: left;
+    text-decoration: none;
+}
+/*end of main*/
+
+/*footer in transparent container*/
+.footer-item {
+    float: right;
+    text-decoration: none;
+}
+/*end of footer*/
