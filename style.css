@@ -23,12 +23,13 @@
 /*End Common Styles*/
 
 /* Header in transparent container */
-.container-transparent {
+.container-transparent-1 {
     width: 1140px;
     position: relative;
     background: transparent;
     margin: auto;
     padding: auto;
+    overflow: hidden;
 }
 .header {
     overflow: hidden;
@@ -75,7 +76,6 @@
     position: relative;
     background: white;
     margin: auto;
-    padding-bottom: 168px;
 }
 .h2 {
     font-family: Roboto-black;
@@ -89,6 +89,17 @@
     color: #184771;
     text-align: center;
     line-height: 35px;
+}
+.dividing-line {
+    height: 1px;
+    width: 1080px;
+    background: #f0f0f0;
+    margin: auto;
+}
+.dividing-gradient {
+    background-image: linear-gradient(#e2edf3, white);
+    height: 12px;
+    width: auto;
 }
 .secondary-text {
     font-family: Roboto-light;
@@ -107,6 +118,14 @@
 /*end of main*/
 
 /*footer in transparent container*/
+.container-transparent-2 {
+    width: 1140px;
+    position: relative;
+    background: transparent;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+}
 .footer-item {
     float: right;
     text-decoration: none;
