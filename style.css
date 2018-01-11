@@ -14,6 +14,9 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 
 .body {
     background-image: url("./images/BG.jpg");
@@ -60,14 +63,10 @@
     font-size: 15px;
     float: right; 
 }
-.li a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
+.menu-item {
     float: left;
-    margin: auto 22px;
-    color: white;
 }
+
 /*end of the header*/
 
 /*main in white container*/
@@ -113,7 +112,6 @@
 }
 .widget-item {
     float: left;
-    text-decoration: none;
 }
 /*end of main*/
 
