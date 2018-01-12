@@ -122,34 +122,55 @@ a:visited {
 .widgets {
     overflow: hidden;
 }
+.widget-list {
+    overflow: hidden;
+}
 .widget-item {
     float: left;
     display: inline-block;
-    height: 280px;
+    /* height: 280px; */
     display: table;
     border-collapse: collapse;
-}
-.widget-footer, .widget-main, .widget-header {
     border: 1px solid #dfdfdf;
-    width: 190px;
-    display: table-row;
 }
-.widget-header {
-    height: 91px;
+.widget-top {
+    background: #f6f6f6;
     color: #3c6e9a;
     font-family: Roboto-bold;
     font-size: 24px;
+    padding: 15px 25px 24px;
 }
+.widget-title {
+    max-width: 140px;
+}
+.widget-middle {
+    text-align: center;
+    padding: 21px 0 24px;
+    border: 1px solid red;
+    border-left: none;
+    border-right: none;
+}
+.widget-bottom {
+    background: #ebf2f7;
+    text-align: center;
+    padding: 18px 0 20px;
+}
+/* .widget-footer, .widget-main, .widget-header {
+    width: 190px;
+    display: table-row;
+} */
 .widget-main {
     height: 110px;
 }
-.widget-footer {
+.widget-cta {
     font-family: Roboto-black;
     font-size: 17px;
     height: 75px;
     color: #3c6e9a;
     font-family: Roboto-bold;
     font-size: 24px;
+    background: #679dce;
+    border-radius: 2px;
 }
 .dividing-gradient {
     background-image: linear-gradient(#e2edf3, white);
