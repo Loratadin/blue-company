@@ -17,17 +17,28 @@
 a {
     text-decoration: none;
 }
-
+a:hover {
+    color: #0a0b0c;
+    }
+a:active {
+    background-image: url("./images/button-background");
+    } 
+a:visited {
+    color: white;
+    }
 .body {
     background-image: url("./images/BG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /*End Common Styles*/
 
 /* Header in transparent container */
 .container-transparent-1 {
-    width: 1140px;
     position: relative;
     background: transparent;
     margin: auto;
@@ -35,48 +46,61 @@ a {
     overflow: hidden;
 }
 .header {
+    padding: 55px 0 28px 0;
     overflow: hidden;
 }
-.header-left {
+.logo-wrapper {
     float: left;
 }
 .logo {
-    margin: 56px auto 30px 23px;
+    /* margin: 56px auto 30px 23px; */
     display: inline-block;
 }
-.h1 {
+.logo-block {
+    float: right;
+    margin: 12px 0 0 5px;
+}
+.website-name {
     font-family: gotham-bold;
     display: inline;
-    font-size: 16px;
+    font-size: 29px;
     text-align: left;
     color: white
 }
-.company-name-description {
+.website-name-description {
     font-family: gotham-thin;
-    font-size: 11px;
-    font-size: 10px;
+    font-size: 16px;
     color: #81b6e5;
 }
 .header-right {
     list-style-type: none;
-    font-family: Roboto;
+    font-family: Roboto-regular;
     font-size: 15px;
     float: right; 
+    color: white;
+}
+.menu-list {
+    overflow: hidden;
 }
 .menu-item {
     float: left;
+    color: white;
+    font-family: Roboto-regular;
+    font-size: 15px;
+    display: inline-block;
+    width: 120px;
 }
 
 /*end of the header*/
 
 /*main in white container*/
 .container-white {
-    width: 1140px;
     position: relative;
     background: white;
     margin: auto;
+    border-radius: 7px;
 }
-.h2 {
+.what-can-tempees {
     font-family: Roboto-black;
     font-size: 40px;
     color: #17466f;
@@ -95,10 +119,48 @@ a {
     background: #f0f0f0;
     margin: auto;
 }
+.widgets {
+    overflow: hidden;
+}
+.widget-item {
+    float: left;
+    display: inline-block;
+    height: 280px;
+    display: table;
+    border-collapse: collapse;
+}
+.widget-footer, .widget-main, .widget-header {
+    border: 1px solid #dfdfdf;
+    width: 190px;
+    display: table-row;
+}
+.widget-header {
+    height: 91px;
+    color: #3c6e9a;
+    font-family: Roboto-bold;
+    font-size: 24px;
+}
+.widget-main {
+    height: 110px;
+}
+.widget-footer {
+    font-family: Roboto-black;
+    font-size: 17px;
+    height: 75px;
+    color: #3c6e9a;
+    font-family: Roboto-bold;
+    font-size: 24px;
+}
 .dividing-gradient {
     background-image: linear-gradient(#e2edf3, white);
     height: 12px;
     width: auto;
+}
+.our-services {
+    font-family: Roboto-black;
+    font-size: 40px;
+    color: #17466f;
+    text-align: center;
 }
 .secondary-text {
     font-family: Roboto-light;
@@ -107,17 +169,10 @@ a {
     text-align: center;
     line-height: 36px;
 }
-.widgets {
-    overflow: hidden;
-}
-.widget-item {
-    float: left;
-}
 /*end of main*/
 
 /*footer in transparent container*/
 .container-transparent-2 {
-    width: 1140px;
     position: relative;
     background: transparent;
     margin: auto;
@@ -127,5 +182,6 @@ a {
 .footer-item {
     float: right;
     text-decoration: none;
+    display: inline-block;
 }
 /*end of footer*/
