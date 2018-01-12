@@ -122,15 +122,15 @@ a:visited {
 }
 .widget-list {
     overflow: hidden;
-    padding: 42px 30px 57px;padding-right: 
+    padding: 42px 3px 57px;
 }
 .widget-item {
     float: left;
     display: inline-block;
-    /* height: 280px; */
     display: table;
     border-collapse: collapse;
     border: 1px solid #dfdfdf;
+    margin: 0 15px;
 }
 .widget-top {
     background: #f6f6f6;
