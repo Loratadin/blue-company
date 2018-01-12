@@ -53,7 +53,6 @@ a:visited {
     float: left;
 }
 .logo {
-    /* margin: 56px auto 30px 23px; */
     display: inline-block;
 }
 .logo-block {
@@ -71,15 +70,14 @@ a:visited {
     font-family: gotham-thin;
     font-size: 16px;
     color: #81b6e5;
+    margin-top: 2px;
 }
-.header-right {
+.menu-list {
     list-style-type: none;
     font-family: Roboto-regular;
     font-size: 15px;
     float: right; 
     color: white;
-}
-.menu-list {
     overflow: hidden;
 }
 .menu-item {
@@ -88,9 +86,10 @@ a:visited {
     font-family: Roboto-regular;
     font-size: 15px;
     display: inline-block;
-    width: 120px;
 }
-
+.menu-item-text {
+    padding: 15px 25px; 
+}
 /*end of the header*/
 
 /*main in white container*/
@@ -105,6 +104,7 @@ a:visited {
     font-size: 40px;
     color: #17466f;
     text-align: center;
+    padding: 63px 0 15px;
 }
 .main-text {
     font-family: Roboto-light;
@@ -112,6 +112,7 @@ a:visited {
     color: #184771;
     text-align: center;
     line-height: 35px;
+    padding: 0 37px 40px;  
 }
 .dividing-line {
     height: 1px;
@@ -119,11 +120,9 @@ a:visited {
     background: #f0f0f0;
     margin: auto;
 }
-.widgets {
-    overflow: hidden;
-}
 .widget-list {
     overflow: hidden;
+    padding: 42px 30px 57px;padding-right: 
 }
 .widget-item {
     float: left;
@@ -146,31 +145,24 @@ a:visited {
 .widget-middle {
     text-align: center;
     padding: 21px 0 24px;
-    border: 1px solid red;
+    border: 1px solid #dfdfdf;
     border-left: none;
     border-right: none;
 }
 .widget-bottom {
     background: #ebf2f7;
     text-align: center;
-    padding: 18px 0 20px;
+    padding: 22px 33px;
 }
-/* .widget-footer, .widget-main, .widget-header {
-    width: 190px;
-    display: table-row;
-} */
 .widget-main {
     height: 110px;
 }
 .widget-cta {
     font-family: Roboto-black;
-    font-size: 17px;
-    height: 75px;
-    color: #3c6e9a;
-    font-family: Roboto-bold;
-    font-size: 24px;
-    background: #679dce;
+    font-size: 17px;     
+    background: #568abd;
     border-radius: 2px;
+    padding: 7px 25px;
 }
 .dividing-gradient {
     background-image: linear-gradient(#e2edf3, white);
