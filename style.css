@@ -198,14 +198,27 @@ a:active {
     padding: 0 32px;
     overflow: hidden;
 }
+.copyright {
+    font-family: Roboto-regular;
+    font-size: 13px;
+    color: #91afc9;
+    float: left;
+}
+.twitter-image {
+    margin: 0 10px 0 10px;
+    float: left;
+}
 .social {
+    font-family: Roboto-regular;
+    font-size: 13px;
+    color: #59a9da;
+    float: left;
 
 }
 .footer-navigation {
-
+    float: right;
 }
 .footer-item {
-    float: right;
     text-decoration: none;
     display: inline-block;
     padding: 0 13px;
