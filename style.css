@@ -51,6 +51,7 @@ a:active {
 }
 .logo {
     display: inline-block;
+    margin-left: 23px;
 }
 .logo-block {
     float: right;
@@ -83,9 +84,10 @@ a:active {
     font-family: Roboto-regular;
     font-size: 15px;
     display: inline-block;
+    padding: 13px 20px;
 }
 .menu-item-text {
-    padding: 15px 25px; 
+     
 }
 /*end of the header*/
 
