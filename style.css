@@ -122,7 +122,7 @@ a:visited {
 }
 .widget-list {
     overflow: hidden;
-    padding: 42px 3px 57px;
+    padding: 42px 28px 57px 27px;
 }
 .widget-item {
     float: left;
@@ -130,7 +130,10 @@ a:visited {
     display: table;
     border-collapse: collapse;
     border: 1px solid #dfdfdf;
-    margin: 0 15px;
+    margin: 0 30px 0 0;
+}
+.widget-item:last-child {
+    margin: 0;
 }
 .widget-top {
     background: #f6f6f6;
