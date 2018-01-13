@@ -194,11 +194,11 @@ a:visited {
 /*end of main*/
 
 /*footer in transparent container*/
-.container-transparent-2 {
+.footer {
     position: relative;
     background: transparent;
-    margin: auto;
-    padding: auto;
+    margin: 21px 0 125px;
+    padding: 0 32px;
     overflow: hidden;
 }
 .footer-item {
