@@ -72,10 +72,7 @@ a:active {
 }
 .menu-list {
     list-style-type: none;
-    font-family: Roboto-regular;
-    font-size: 15px;
     float: right; 
-    color: white;
     overflow: hidden;
 }
 .menu-item {
@@ -86,8 +83,8 @@ a:active {
     display: inline-block;
     padding: 13px 20px;
 }
-.menu-item-text {
-     
+.menu-item a:hover {
+    background: #568cbc;
 }
 /*end of the header*/
 
