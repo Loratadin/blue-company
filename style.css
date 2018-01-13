@@ -168,8 +168,11 @@ a:visited {
     border-radius: 2px;
     padding: 7px 25px;
 }
+.blue-bottom {
+    background: #f3f7f9;
+}
 .dividing-gradient {
-    background-image: linear-gradient(#e2edf3, white);
+    background-image: linear-gradient(#a0bfda, #f3f7f9);
     height: 12px;
     width: auto;
 }
