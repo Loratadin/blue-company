@@ -80,11 +80,13 @@ a:active {
     color: white;
     font-family: Roboto-regular;
     font-size: 15px;
-    display: inline-block;
+    display: block;
     padding: 13px 20px;
 }
 .menu-item a:hover {
     background: #568cbc;
+    padding: 13px 20px;
+    border-radius: 7px;
 }
 /*end of the header*/
 
@@ -119,6 +121,8 @@ a:active {
 .widget-list {
     overflow: hidden;
     padding: 42px 28px 57px 27px;
+    display: flex;
+    flex-flow: row wrap;
 }
 .widget-item {
     float: left;
