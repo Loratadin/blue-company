@@ -21,8 +21,13 @@ a:hover {
     color: #0a0b0c;
     }
 a:active {
-    background-image: url("./images/button-background");
+    background: #568cbc;
+    padding: 13px 20px;
+    border-radius: 7px;
     } 
+a:visited {
+    color: white;
+}
 .body {
     background-image: url("./images/BG.jpg");
     background-repeat: no-repeat;
@@ -216,17 +221,19 @@ a:active {
     font-size: 13px;
     color: #59a9da;
     float: left;
-
 }
 .footer-navigation {
     float: right;
 }
-.footer-item {
+.footer-navigation-item {
     text-decoration: none;
     display: inline-block;
     padding: 0 13px;
     font-family: Roboto-regular;
     font-size: 13px;
+    color: #91afc9;
+}
+.footer-navigation-item a:visited {
     color: #91afc9;
 }
 /*end of footer*/
