@@ -88,11 +88,14 @@ a:visited {
     padding: 13px 20px;
     border-radius: 7px;
 }
-.menu-item:after {
-    content: "#";
+.menu-item:before {
+    position: absolute;
+    content: "";
     width: 1px;
     height: 30px;
-    color: #0c3559;
+    background: #0c3559;
+    display: inline-block;
+    margin: 0 90px;
 }
 /*end of the header*/
 
