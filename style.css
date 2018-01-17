@@ -222,12 +222,25 @@ a:visited {
     float: right;
 }
 .footer-navigation-item {
-    text-decoration: none;
+    position: relative;
     display: inline-block;
+    text-decoration: none;
     padding: 0 13px;
     font-family: Roboto-regular;
     font-size: 13px;
     color: #91afc9;
+}
+.footer-navigation-item:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #91afc9;
+}
+.footer-navigation-item:last-child:before {
+    display: none;
 }
 .footer-navigation-item a:visited {
     color: #91afc9;
