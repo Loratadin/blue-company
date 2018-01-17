@@ -86,7 +86,6 @@ a:visited {
 }
 .menu-item:hover {
     background: #568cbc;
-    
     border-radius: 7px;
 } 
 .menu-item:before {
